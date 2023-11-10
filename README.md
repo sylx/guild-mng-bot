@@ -12,6 +12,7 @@ $ pnpm install
 ```bash
 $ pnpm install
 $ pnpm run build
+$ pnpm install -P
 ```
 
 ## 実行
@@ -22,7 +23,7 @@ $ pnpm run dev
 
 ### 本番環境
 ```bash
-$ pnpm run start
+$ pnpm start
 ```
 
 ### Docker
