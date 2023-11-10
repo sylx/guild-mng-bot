@@ -2,8 +2,7 @@ version: '3.4'
 services:
   bot:
     build: .
-    image: guild-mng-bot:latest
-    pull_policy: build
+    image: guild-mng-bot:1.0.0
     # init: true  # docker stackでは使えないので不可
     # .envファイルではなく、環境変数を使用するが、docker-compose.ymlに直接書くのはよくないので、以下のようにする
     environment:
